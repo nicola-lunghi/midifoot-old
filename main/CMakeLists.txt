@@ -1,5 +1,6 @@
 set(srcs "app_main.c"
          "app_intro.c"
+         "app_storage.c"
          )
 set(includes ".")
 set(priv_requires "")
