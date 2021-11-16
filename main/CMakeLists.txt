@@ -1,4 +1,6 @@
-set(srcs "app_main.c")
+set(srcs "app_main.c"
+         "app_intro.c"
+         )
 set(includes ".")
 set(priv_requires "")
 
