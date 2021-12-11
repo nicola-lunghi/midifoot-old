@@ -1,3 +1,13 @@
 ## IDF Component Manager Manifest File
 dependencies:
-  idf: ">=4.1.0"  ## Required IDF version
+  idf: ">=4.1.0"                         ## Required IDF version
+  espressif/esp_wrover_kit: "==0.0.1"    ## for lcd library
+  espressif/button: "==2.0.0"            ## buttons library
+  esp32-idf-uartmidi:                    ## midi over serial
+    # version: ">0.0.1"
+    path: components/uartmidi
+    git: https://github.com/midibox/esp32-idf-uartmidi.git
+  esp32-idf-blemidi:                     ## midi over bluetooth
+    path: components/blemidi
+    git: https://github.com/midibox/esp32-idf-blemidi.git
+
